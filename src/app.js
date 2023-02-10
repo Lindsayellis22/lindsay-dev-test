@@ -5,7 +5,7 @@ function App() {
 		<header className="hero-image">
 			<div className="hero-text">
 				<h1>WELCOME TO</h1>
-				<h2>testing</h2>
+				<h2>Rooster Grin</h2>
 				<button>testing</button>
 			</div>
 		</header>
