@@ -31,12 +31,11 @@ h2 {
 
 .body-content {
   display: flex;
+  position: relative;
 }
 
 .body-text {
-  padding-top: 100px;
-  padding-left: 250px;
-  flex-wrap: wrap;
+  padding: 7.5rem;
   }
 
 .img-1 {
@@ -44,6 +43,8 @@ h2 {
   background-image: url(/Users/lellis/front-end-dev-test/public/assets/img-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 250px;
+  width: 250%;
+  min-width: 300px;
+  height: auto;
 }
 
