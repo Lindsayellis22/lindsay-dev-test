@@ -19,9 +19,31 @@ h1 {
   letter-spacing: 5px;
 }
 
-h2 {
+.hero-second-header {
   font-family: 'Anybody', cursive;
   color: white;
   font-size: 2.5rem;
+}
+
+h2 {
+  color: purple;
+}
+
+.body-content {
+  display: flex;
+}
+
+.body-text {
+  padding-top: 100px;
+  padding-left: 250px;
+  flex-wrap: wrap;
+  }
+
+.img-1 {
+  margin-left: auto;
+  background-image: url(/Users/lellis/front-end-dev-test/public/assets/img-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 250px;
 }
 
