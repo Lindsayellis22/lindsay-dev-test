@@ -6,3 +6,15 @@
   position: relative;
   padding: 250px;
 }
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Londrina Outline', cursive;
+  color: white;
+  font-size: 3.5rem;
+}
