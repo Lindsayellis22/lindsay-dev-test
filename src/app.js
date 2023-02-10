@@ -1,5 +1,7 @@
-import Home from '../index.html'
-import Styles from './scss/app.scss'
-import 'bootstrap'
+import "./App.css";
 
-console.log("working")
+function App() {
+	return <header className="App"></header>;
+}
+
+export default App;
