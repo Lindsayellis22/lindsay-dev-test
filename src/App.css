@@ -1,5 +1,5 @@
 .hero-image {
-  background-image: url(/Users/lellis/front-end-dev-test/public/assets/hero.jpg);
+  background-image: url(/Users/lellis/front-end-dev-test/src/assets/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -12,35 +12,59 @@
   line-height: 100%;
 }
 
-h1 {
-  font-family: 'Londrina Outline', cursive;
-  color: white;
-  font-size: 3.5rem;
-  letter-spacing: 5px;
-}
 
 .hero-second-header {
   font-family: 'Anybody', cursive;
   color: white;
-  font-size: 2.5rem;
+  font-size: 2.7rem;
 }
 
 h2 {
+  font-family: 'Anybody', cursive;
   color: purple;
+  font-size: 2 rem;
+  letter-spacing: 3px;
 }
 
 .body-content {
   display: flex;
   position: relative;
+  align-items: center;
+}
+
+.body-content2 {
+  align-self: flex-end;
+  flex-direction: column;
+}
+
+.body-content2 > p > h2 {
+  margin: 10px;
+  text-align: left;
 }
 
 .body-text {
   padding: 7.5rem;
-  }
+}
+
+.right {
+  display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap;
+  align-content: flex-end;
+ 
+  
+}
+
+.body-text2 {
+  flex-wrap: wrap;
+  position: relative;
+  
+}
+
 
 .img-1 {
   margin-left: auto;
-  background-image: url(/Users/lellis/front-end-dev-test/public/assets/img-1.jpg);
+  background-image: url(/Users/lellis/front-end-dev-test/src/assets/img-1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   width: 250%;
@@ -48,3 +72,168 @@ h2 {
   height: auto;
 }
 
+.banner-1 {
+  background-image: url(/Users/lellis/front-end-dev-test/src/assets/banner-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px;
+}
+
+.banner-2 {
+  background-image: url(/Users/lellis/front-end-dev-test/src/assets/banner-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px;
+ 
+  
+}
+
+.banner-2-text {
+margin-left: auto;
+  
+  align-items: flex-end;
+    width: 300px;
+  flex-direction: column;
+ position:relative;
+  display: flex;
+ 
+  
+}
+
+.texttext {
+  text-align: left;
+}
+
+
+
+.body-container {
+  display: flex;
+}
+
+.icon-container {
+  background: #fafafa;
+  background-size: cover;
+  width: 250%;
+  min-width: 300px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+icon {
+  margin: 20px;
+}
+
+.icon1 {
+  height: 50px;
+  width: 50px;
+}
+
+
+.icon2 {
+ height: 50px;
+ width: 50px;
+}
+
+.icon3 {
+
+}
+
+.icon4 {
+
+}
+
+/* .right-items {
+  
+  text-align: left;
+    margin-right: auto 10px;
+    position: relative;
+    bottom: 10rem;
+    
+    
+    
+} */
+
+.gallery-cell {
+  width: 66%;
+  height: 200px;
+  margin-right: 10px;
+  background: #8C8;
+  counter-increment: gallery-cell;
+}
+
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  content: counter(gallery-cell);
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+.text-carousel {
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.text-carousel ul {
+  display: inline-block;
+  animation: scroll 10s;
+}
+
+.text-carousel li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  background: #333;
+  cursor: pointer;
+}
+
+.arrow.left {
+  left: 10px;
+  clip-path: polygon(100% 50%, 0 100%, 0 0);
+}
+
+.arrow.right {
+  right: 10px;
+  clip-path: polygon(0 50%, 100% 100%, 100% 0);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.lab {
+  height: 60px;
+  width: 60px;
+  border: purple solid 1px;
+  border-radius: 50%;
+  padding: 7px;
+}
+
+.cara {
+  justify-content: flex-end;
+  width: 500px;
+}
+
+.d-block w-100 {
+  color: red;
+}

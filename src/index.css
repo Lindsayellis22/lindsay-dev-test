@@ -9,3 +9,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1 {
+  font-family: 'Londrina Outline', cursive;
+  color: white;
+  font-size: 4rem !important;
+  letter-spacing: 5px;
+}
+
