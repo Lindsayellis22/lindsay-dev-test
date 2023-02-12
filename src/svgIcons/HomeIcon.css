@@ -1,0 +1,7 @@
+.home-icon {
+    height: 100px;
+    width: 100px;
+    border: purple solid 1px;
+    border-radius: 50%;
+    padding: 20px;
+}
