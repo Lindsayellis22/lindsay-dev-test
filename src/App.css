@@ -85,7 +85,10 @@ h2 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 250px;
+  height: 600px;
+  align-items: center;
+
+  
  
   
 }
@@ -96,14 +99,17 @@ margin-left: auto;
   align-items: flex-end;
     width: 300px;
   flex-direction: column;
- position:relative;
+ /* position:relative; */
   display: flex;
+  margin-right: 350px;
+  padding-top: 150px;
  
   
 }
 
 .texttext {
   text-align: left;
+  
 }
 
 
