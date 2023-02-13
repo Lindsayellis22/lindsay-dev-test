@@ -31,25 +31,25 @@ function App(props) {
 	};
 
 	return (
-		<>
+		<body className="wrapper">
 			<header>
 				<div className="hero-image">
 					<div className="white-logo">
 						<LogoWhite />
 					</div>
-					<div className="hero-text">
+					<div className="hero-button">
 						<h1 className="animate__animated animate__fadeIn animate__slower">
 							WELCOME TO
 						</h1>
-						<h2 className="hero-second-header">Rooster Grin</h2>
+						<h2 className="hero-h2">Rooster Grin</h2>
 						<Button variant="contained" style={style}>
 							Learn More
 						</Button>
 					</div>
 				</div>
 			</header>
-			<div className="body-content1">
-				<div className="body-text1">
+			<section className="section1">
+				<div className="section-text1">
 					<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
 						<h2>LOREM IPSUM</h2>
 					</ScrollAnimation>
@@ -77,9 +77,9 @@ function App(props) {
 						> Learn More
 					</Button>
 				</div>
-			</div>
-			<div className="banner-1">
-				<div className="banner1-text">
+			</section>
+			<div className="section2">
+				<div className="section2-text">
 					<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
 						<h2>LOREM IPSUM</h2>
 					</ScrollAnimation>
@@ -88,8 +88,8 @@ function App(props) {
 					</Button>
 				</div>
 			</div>
-			<div className="body-content-2">
-				<div className="body-text">
+			<div className="section3">
+				<div className="section3-text">
 					<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
 						<h2>LOREM IPSUM</h2>
 					</ScrollAnimation>
@@ -130,7 +130,6 @@ function App(props) {
 						</div>
 						<h5>Hello</h5>
 					</div>
-
 					<div className="icon animate__bounceIn">
 						<div className="inner-icon">
 							<Expertise />
@@ -145,10 +144,9 @@ function App(props) {
 					</div>
 				</div>
 			</div>
-
-			<div className="banner-2">
-				<div className="banner-2-text">
-					<div className="texttext">
+			<div className="section4">
+				<div className="section4-text">
+					<div>
 						<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
 							<h2>LOREM IPSUM</h2>
 						</ScrollAnimation>
@@ -164,9 +162,8 @@ function App(props) {
 					</div>
 				</div>
 			</div>
-
-			<div className="body-content">
-				<div className="body-text">
+			<div className="section5">
+				<div className="section3-text">
 					<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
 						<h2 className="h1-black">
 							LOREM IPSUM
@@ -189,7 +186,7 @@ function App(props) {
 					<Facebook />
 				</div>
 			</footer>
-		</>
+		</body>
 	);
 }
 

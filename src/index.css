@@ -29,15 +29,72 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-    align-items: center;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #fafafa;
-    color: white;
-    text-align: center;
-    height: 200px;
+  align-items: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fafafa;
+  color: white;
+  text-align: center;
+  height: 200px;
 }
 
+@media all and (max-width:30em) {
+  
+.hero-image {
+  background-image: url(/Users/lellis/front-end-dev-test/src/assets/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width:100%;
+}
+
+  .section1 {
+    width: 100%;
+    
+    display: flex;
+    font-size: 12px;
+  }
+
+  .section2-text {
+    justify-content: center;
+  }
+
+  .section3-text {
+    justify-content: flex-start;
+    align-self: center;
+    font-size: 12px;
+  }
+
+  .section4 {
+    flex: 1 0 100%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    font-size: 12px;
+  }
+
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .cara {
+    flex: 1 0 100%;
+  }
+
+  .home-icon {
+    height: 50px;
+    width: 50px;
+  }
+
+  .white-logo {
+    justify-content: center;
+  }
+  
+}
 
 
