@@ -1,5 +1,7 @@
 import "./App.css";
 import { Button } from "@material-ui/core";
+import Rating from "@material-ui/lab/Rating";
+import Box from "@material-ui/core/Box";
 import "animate.css";
 import { useState } from "react";
 import Carasaul from "./components/Carasaul";
@@ -14,6 +16,7 @@ import Facebook from "./svgIcons/Facebook";
 
 function App(props) {
 	const [showMore, setShowMore] = useState(false);
+	const [value, setValue] = useState(5);
 
 	const style = {
 		backgroundColor: "purple",
@@ -47,7 +50,7 @@ function App(props) {
 			</header>
 			<div className="body-content1">
 				<div className="body-text1">
-					<ScrollAnimation className="animate__animated animate__fadeInDown">
+					<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
 						<h2>LOREM IPSUM</h2>
 					</ScrollAnimation>
 					<p>
@@ -74,7 +77,6 @@ function App(props) {
 						> Learn More
 					</Button>
 				</div>
-				{/* <img className="img-1" alt="climbing" /> */}
 			</div>
 			<div className="banner-1">
 				<div className="banner1-text">
@@ -116,25 +118,30 @@ function App(props) {
 					</Button>
 				</div>
 				<div className="icon-container">
-					<div className="icon-row">
-						<div className="icon">
+					<div className="icon animate__bounceIn">
+						<div className="inner-icon">
 							<Lab />
-							<h5>HELLO</h5>
 						</div>
-						<div className="icon">
-							<Hygeine />
-							<h5>Hello</h5>
-						</div>
+						<h5>HELLO</h5>
 					</div>
-					<div className="icon-row">
-						<div className="icon">
+					<div className="icon animate__bounceIn">
+						<div className="inner-icon">
+							<Hygeine />
+						</div>
+						<h5>Hello</h5>
+					</div>
+
+					<div className="icon animate__bounceIn">
+						<div className="inner-icon">
 							<Expertise />
-							<h5>hello</h5>
 						</div>
-						<div className="icon">
+						<h5>hello</h5>
+					</div>
+					<div className="icon animate__bounceIn">
+						<div className="inner-icon">
 							<Retention />
-							<h5>hello</h5>
 						</div>
+						<h5>hello</h5>
 					</div>
 				</div>
 			</div>
@@ -142,9 +149,9 @@ function App(props) {
 			<div className="banner-2">
 				<div className="banner-2-text">
 					<div className="texttext">
-						<h2 className="animate__animated animate__fadeInDown">
-							LOREM IPSUM
-						</h2>
+						<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
+							<h2>LOREM IPSUM</h2>
+						</ScrollAnimation>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 							eiusmod tempor incididunt ut labore et dolore magna aliqua. Magnis
@@ -167,6 +174,9 @@ function App(props) {
 							dolor sit amet
 						</h2>
 					</ScrollAnimation>
+					<Box component="fieldset" mb={3} borderColor="transparent">
+						<Rating name="read-only" value={value} readOnly />
+					</Box>
 				</div>
 				<div className="cara">
 					<Carasaul />

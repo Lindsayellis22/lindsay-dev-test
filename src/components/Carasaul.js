@@ -9,14 +9,24 @@ function Carasaul(props) {
 				<Carousel variant="dark" className="d-block w-100">
 					<Carousel.Item>
 						<Carousel.Caption>
-							<h5>test</h5>
-							<p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+							<h5>John Doe 8/8/2019</h5>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat.
+							</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>
 						<Carousel.Caption>
-							<h5>Second slide label</h5>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							<h5>Jane Doe 9/18/21</h5>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+								enim ad minim veniam, quis nostrud exercitation ullamco laboris
+								nisi ut aliquip ex ea commodo consequat. Duis.
+							</p>
 						</Carousel.Caption>
 					</Carousel.Item>
 					<Carousel.Item>

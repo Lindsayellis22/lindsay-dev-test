@@ -55,12 +55,13 @@
     margin-left: auto;
     justify-content: flex-end;
         align-items: center;
-        width: 500px;
-        height: 500px;
+        
+        
         
         display: flex;
         margin-right: 120px;
-        width: 600px;
+        height: 800px;
+        width: 800px;
 }
 
 h5 {

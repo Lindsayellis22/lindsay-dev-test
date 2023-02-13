@@ -1,15 +1,14 @@
 .home-icon {
-    height: 100px;
+     height: 100px;
     width: 100px;
-    border: purple solid 1px;
-    border-radius: 50%;
+    
     padding: 20px;
+    width: 100px;
+        height: auto;
+        display: block;
+        margin: auto;
+        
 }
-
-/* .logo-white {
-    width: 150px;
-    height:150px;
-} */
 
 .footer-logo {
     width: 45px;
