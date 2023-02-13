@@ -3,14 +3,29 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-  
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
   height: 700px;
 }
 
-.hero-text {
-  text-align: center;
+.white-logo {
+  align-self: baseline;
+  margin-top: 0;
+  position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 10rem;
+    margin-top: 20px;
+    height: 200px;
+    width: 200px;
 }
+
+/* .hero-text {
+  text-align: center;
+} */
 
 
 .hero-second-header {
@@ -52,9 +67,7 @@ linear-gradient(white, white) left/50% 100% no-repeat;
 
 
 
-.body-content2 > p > h2 {
-  
-}
+
 
 .body-text {
   
@@ -177,10 +190,7 @@ margin-left: auto;
 
 
 
-.cara {
-  justify-content: flex-end;
-  width: 600px;
-}
+
 
 .d-block w-100 {
   color: red;
@@ -194,5 +204,10 @@ margin-left: auto;
 .h1-black {
   color: black;
   text-transform: uppercase;
-  padding: 9rem;
+}
+
+.footer-icon-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }

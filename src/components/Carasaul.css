@@ -53,13 +53,14 @@
 
 .cara {
     margin-left: auto;
-    
+    justify-content: flex-end;
         align-items: center;
         width: 500px;
         height: 500px;
-        /* position:relative; */
+        
         display: flex;
         margin-right: 120px;
+        width: 600px;
 }
 
 h5 {

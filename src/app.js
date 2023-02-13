@@ -8,6 +8,9 @@ import Lab from "./svgIcons/Lab";
 import Hygeine from "./svgIcons/Hygeine";
 import Expertise from "./svgIcons/Expertise";
 import Retention from "./svgIcons/Retention";
+import LogoWhite from "./svgIcons/LogoWhite";
+import Instagram from "./svgIcons/Instagram";
+import Facebook from "./svgIcons/Facebook";
 
 function App(props) {
 	const [showMore, setShowMore] = useState(false);
@@ -26,15 +29,20 @@ function App(props) {
 
 	return (
 		<>
-			<header className="hero-image">
-				<div className="hero-text">
-					<h1 className="animate__animated animate__fadeIn animate__slower">
-						WELCOME TO
-					</h1>
-					<h2 className="hero-second-header">Rooster Grin</h2>
-					<Button variant="contained" style={style}>
-						Learn More
-					</Button>
+			<header>
+				<div className="hero-image">
+					<div className="white-logo">
+						<LogoWhite />
+					</div>
+					<div className="hero-text">
+						<h1 className="animate__animated animate__fadeIn animate__slower">
+							WELCOME TO
+						</h1>
+						<h2 className="hero-second-header">Rooster Grin</h2>
+						<Button variant="contained" style={style}>
+							Learn More
+						</Button>
+					</div>
 				</div>
 			</header>
 			<div className="body-content1">
@@ -164,7 +172,13 @@ function App(props) {
 					<Carasaul />
 				</div>
 			</div>
-			<footer>.</footer>
+			<footer>
+				<h5>Follow Us:</h5>
+				<div className="footer-icon-container">
+					<Instagram />
+					<Facebook />
+				</div>
+			</footer>
 		</>
 	);
 }
