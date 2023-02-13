@@ -3,13 +3,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* position: relative; */
-  padding: 250px;
+  position: relative;
+  
+  height: 700px;
 }
 
 .hero-text {
   text-align: center;
-  line-height: 100%;
 }
 
 
@@ -17,6 +17,7 @@
   font-family: 'Anybody', cursive;
   color: white;
   font-size: 2.7rem;
+  text-align: center;
 }
 
 
@@ -39,9 +40,14 @@ linear-gradient(white, white) left/50% 100% no-repeat;
   
   display: flex;
     
-   align-items: center;
+  align-items: center;
     height: 600px;
-    padding: 7.5rem;
+    padding: 11rem;
+}
+
+.body-text1 {
+  width: 500px;
+  
 }
 
 
@@ -52,11 +58,11 @@ linear-gradient(white, white) left/50% 100% no-repeat;
 
 .body-text {
   
-  padding: 7.5rem;
+  padding: 11rem;
 }
 
 .banner1-text {
-  padding: 7.5rem;
+  padding: 11rem;
   justify-content: flex-start;
   align-self: center;
 }
@@ -138,9 +144,13 @@ margin-left: auto;
 
 .icon-container {
   
-  
+  display: grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
   width: 250%;
-  min-width: 300px; 
+  
   height: auto;
   
   
@@ -149,19 +159,10 @@ margin-left: auto;
   
 }
 
-.icon-row {
-width: 100%;
-
-  flex-direction: row;
-  flex-wrap: wrap;
-  display: flex;
-  width: 100%;
-padding-right: 50px
-}
 
 .icon {
   display: flex;
-  flex: 1;
+  
   padding: 50px;
   height: 200px;
   justify-content: center;
@@ -178,7 +179,7 @@ padding-right: 50px
 
 .cara {
   justify-content: flex-end;
-  width: 500px;
+  width: 600px;
 }
 
 .d-block w-100 {
@@ -193,5 +194,5 @@ padding-right: 50px
 .h1-black {
   color: black;
   text-transform: uppercase;
-  padding: 7.5 rem;
+  padding: 9rem;
 }
