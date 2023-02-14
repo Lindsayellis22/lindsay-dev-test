@@ -84,7 +84,7 @@ function App(props) {
 						<h2>LOREM IPSUM</h2>
 					</ScrollAnimation>
 					<Button style={style1} variant="contained">
-						BUTTON
+						BUTTON BUTTON
 					</Button>
 				</div>
 			</div>
@@ -157,7 +157,7 @@ function App(props) {
 							morbi tincidunt ornare massa eget egestas purus.
 						</p>
 						<Button style={style1} variant="contained">
-							BUTTON
+							BUTTON BUTTON
 						</Button>
 					</div>
 				</div>

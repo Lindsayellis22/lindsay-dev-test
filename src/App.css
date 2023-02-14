@@ -91,11 +91,10 @@
 
 .section4-text {
   margin-left: auto;
-  align-items: flex-end;
-  width: 300px;
+  width: 400px;
   flex-direction: column;
   display: flex;
-  margin-right: 350px;
+  margin-right: 300px;
   padding-top: 150px;
 }
 
