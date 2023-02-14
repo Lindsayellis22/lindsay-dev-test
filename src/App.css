@@ -91,7 +91,7 @@
 
 .section4-text {
   margin-left: auto;
-  width: 400px;
+  width: 300px;
   flex-direction: column;
   display: flex;
   margin-right: 300px;
@@ -99,10 +99,11 @@
 }
 
 .section3 {
+  
   display: flex;
-  align-items: center;
-  height: 600px;
-  background: linear-gradient(to right, white 50%, #fafafa 50%);
+    align-items: center;
+    height: 600px;
+    background: linear-gradient(to right, white 50%, #fafafa 50%);
 }
 
 .icon-container {
@@ -131,6 +132,10 @@
 .h1-black {
   color: black;
   text-transform: uppercase;
+}
+
+.section5-text {
+  padding: 13%;
 }
 
 .footer-icon-container {

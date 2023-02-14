@@ -22,7 +22,6 @@
     transform: translateY(-50%);
     width: 20px;
     height: 20px;
-    background: purple !important;
     cursor: pointer;
 }
 
@@ -52,19 +51,25 @@
 }
 
 .cara {
-    margin-left: auto;
-    justify-content: flex-end;
-        align-items: center;
+    /* margin-left: auto; */
+    /* justify-content: flex-end; */
+      align-items: center;
         
         
         
         display: flex;
-        margin-right: 120px;
-        height: 800px;
+        /* margin-right: 5%; */
+        height: 600px;
         width: 800px;
 }
 
 h5 {
     color: purple !important;
     padding-bottom: 10px !important;
+}
+
+.active.carousel-item {
+    height: 100%;
+    width: 100%;
+    text-align: center;
 }

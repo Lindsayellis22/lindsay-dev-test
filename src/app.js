@@ -163,7 +163,7 @@ function App(props) {
 				</div>
 			</div>
 			<div className="section5">
-				<div className="section3-text">
+				<div className="section5-text">
 					<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
 						<h2 className="h1-black">
 							LOREM IPSUM
@@ -175,7 +175,7 @@ function App(props) {
 						<Rating name="read-only" value={value} readOnly />
 					</Box>
 				</div>
-				<div className="cara">
+				<div className="carousel-container">
 					<Carasaul />
 				</div>
 			</div>
