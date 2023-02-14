@@ -1,5 +1,3 @@
-
-
 .text-carousel {
     position: relative;
     overflow: hidden;
@@ -36,8 +34,25 @@
 }
 
 .carousel-item {
-    height: 200px !important;
-    
+    height: 200px !important;  
+}
+
+.active.carousel-item {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+h5 {
+    color: purple !important;
+    padding-bottom: 10px !important;
+}
+
+.cara {
+    align-items: center;
+    display: flex;
+    height: 600px;
+    width: 800px;
 }
 
 @keyframes scroll {
@@ -50,26 +65,3 @@
     }
 }
 
-.cara {
-    /* margin-left: auto; */
-    /* justify-content: flex-end; */
-      align-items: center;
-        
-        
-        
-        display: flex;
-        /* margin-right: 5%; */
-        height: 600px;
-        width: 800px;
-}
-
-h5 {
-    color: purple !important;
-    padding-bottom: 10px !important;
-}
-
-.active.carousel-item {
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}

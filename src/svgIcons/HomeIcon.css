@@ -1,12 +1,10 @@
 .home-icon {
-     height: 100px;
+    height: 100px;
     width: 100px;
-    
     padding: 20px;
-        height: auto;
-        display: block;
-        margin: auto;
-        
+    height: auto;
+    display: block;
+    margin: auto;      
 }
 
 .footer-logo {

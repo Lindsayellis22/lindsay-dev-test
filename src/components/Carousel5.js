@@ -1,8 +1,8 @@
 import React from "react";
-import "./Carasaul.css";
+import "./Carousel5.css";
 import Carousel from "react-bootstrap/Carousel";
 
-function Carasaul(props) {
+function Carousel5(props) {
 	return (
 		<div>
 			<section className="cara">
@@ -44,4 +44,4 @@ function Carasaul(props) {
 	);
 }
 
-export default Carasaul;
+export default Carousel5;

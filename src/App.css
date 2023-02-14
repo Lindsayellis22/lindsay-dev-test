@@ -1,18 +1,17 @@
+
+/* header */
 .hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
   background-image: url(/src/assets/hero.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 700px;
 }
 
 .white-logo {
-  align-self: baseline;
-  margin-top: 0;
   position: absolute;
   left: 0;
   top: 0;
@@ -33,12 +32,7 @@
   text-align: center;
 }
 
-.section5 {
-  display: flex;
-  position: relative;
-  align-items: center;
-  height: 600px;
-}
+/* sections */
 
 .section1 {
   background:
@@ -55,8 +49,13 @@
   width: 500px;
 }
 
-.section3-text  {
-  padding: 13%;
+.section2 {
+  display: flex;
+  background-image: url(/src/assets/banner-1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
 }
 
 .section2-text {
@@ -65,45 +64,15 @@
   align-self: center;
 }
 
-
-.body-text2 {
-  flex-wrap: wrap;
-  position: relative;
-}
-
-.section2 {
-  background-image: url(/src/assets/banner-1.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-  display: flex;
-}
-
-.section4 {
-  background-image: url(/src/assets/banner-2.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 600px;
-  align-items: center;
-}
-
-.section4-text {
-  margin-left: auto;
-  width: 300px;
-  flex-direction: column;
-  display: flex;
-  margin-right: 300px;
-  padding-top: 150px;
-}
-
 .section3 {
-  
   display: flex;
-    align-items: center;
-    height: 600px;
-    background: linear-gradient(to right, white 50%, #fafafa 50%);
+  align-items: center;
+  height: 600px;
+  background: linear-gradient(to right, white 50%, #fafafa 50%);
+}
+
+.section3-text  {
+  padding: 13%;
 }
 
 .icon-container {
@@ -128,13 +97,57 @@
   align-items: center;
 }
 
+.section4 {
+  background-image: url(/src/assets/banner-2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  align-items: center;
+}
+
+.section4-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  width: 300px;
+  margin-right: 300px;
+  padding-top: 150px;
+}
+
+.section5 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 600px;
+}
+
+.section5-text {
+  padding: 13%;
+}
+
 .h1-black {
   color: black;
   text-transform: uppercase;
 }
 
-.section5-text {
-  padding: 13%;
+.more {
+  color: purple !important;
+  font-weight: bold !important;
+}
+
+/* footer */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #fafafa;
+  text-align: center;
+  height: 200px;
 }
 
 .footer-icon-container {

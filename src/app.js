@@ -1,11 +1,15 @@
 import "./App.css";
+import { useState } from "react";
+// material UI for button and rating image
 import { Button } from "@material-ui/core";
 import Rating from "@material-ui/lab/Rating";
 import Box from "@material-ui/core/Box";
+// animate.css for animations, scroll animation react library
 import "animate.css";
-import { useState } from "react";
-import Carasaul from "./components/Carasaul";
 import ScrollAnimation from "react-animate-on-scroll";
+// bootsrap for carasaul
+import Carousel5 from "./components/Carousel5";
+// import svg icons
 import Lab from "./svgIcons/Lab";
 import Hygeine from "./svgIcons/Hygeine";
 import Expertise from "./svgIcons/Expertise";
@@ -18,6 +22,7 @@ function App(props) {
 	const [showMore, setShowMore] = useState(false);
 	const [value, setValue] = useState(5);
 
+	// change styles for material UI buttons
 	const style = {
 		backgroundColor: "purple",
 		color: "white",
@@ -78,7 +83,7 @@ function App(props) {
 					</Button>
 				</div>
 			</section>
-			<div className="section2">
+			<section className="section2">
 				<div className="section2-text">
 					<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
 						<h2>LOREM IPSUM</h2>
@@ -87,8 +92,8 @@ function App(props) {
 						BUTTON BUTTON
 					</Button>
 				</div>
-			</div>
-			<div className="section3">
+			</section>
+			<section className="section3">
 				<div className="section3-text">
 					<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
 						<h2>LOREM IPSUM</h2>
@@ -103,48 +108,35 @@ function App(props) {
 						euismod elementum nisi. Nunc scelerisque viverra mauris in aliquam
 						sem.
 					</p>
-					{showMore ? (
-						<p>
-							Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt.
-							Habitasse platea dictumst quisque sagittis. Vulputate eu
-							scelerisque felis imperdiet proin fermentum leo. Turpis egestas
-							maecenas pharetra convallis posuere morbi leo urna. Eu consequat
-							ac felis donec et odio. Integer malesuada nunc vel risus commodo
-							viverra maecenas.
-						</p>
-					) : null}
-					<Button className="more" onClick={() => setShowMore(!showMore)}>
-						> Learn More
-					</Button>
 				</div>
 				<div className="icon-container">
-					<div className="icon animate__bounceIn">
+					<div className="icon animate__animated animate__zoomIn">
 						<div className="inner-icon">
 							<Lab />
 						</div>
 						<h5>HELLO</h5>
 					</div>
-					<div className="icon animate__bounceIn">
+					<div className="icon animate__animated animate__zoomIn">
 						<div className="inner-icon">
 							<Hygeine />
 						</div>
 						<h5>Hello</h5>
 					</div>
-					<div className="icon animate__bounceIn">
+					<div className="icon animate__animated animate__zoomIn">
 						<div className="inner-icon">
 							<Expertise />
 						</div>
 						<h5>hello</h5>
 					</div>
-					<div className="icon animate__bounceIn">
+					<div className="icon animate__animated animate__zoomIn">
 						<div className="inner-icon">
 							<Retention />
 						</div>
 						<h5>hello</h5>
 					</div>
 				</div>
-			</div>
-			<div className="section4">
+			</section>
+			<section className="section4">
 				<div className="section4-text">
 					<div>
 						<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
@@ -161,8 +153,8 @@ function App(props) {
 						</Button>
 					</div>
 				</div>
-			</div>
-			<div className="section5">
+			</section>
+			<section className="section5">
 				<div className="section5-text">
 					<ScrollAnimation animateIn="animate__animated animate__fadeInDown">
 						<h2 className="h1-black">
@@ -176,9 +168,9 @@ function App(props) {
 					</Box>
 				</div>
 				<div className="carousel-container">
-					<Carasaul />
+					<Carousel5 />
 				</div>
-			</div>
+			</section>
 			<footer>
 				<h5>Follow Us:</h5>
 				<div className="footer-icon-container">
